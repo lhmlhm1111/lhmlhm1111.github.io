@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "[Tip] github 사용법 - 협업(push-pull)"
-subtitle:   "github 사용법 - 협업(push-pull)"
+title:  "[Tip] github 사용법 - 협업(push&pull)"
+subtitle:   "github 사용법 - 협업(push&pull)"
 categories: tip
 tags: github git
 comments: true
