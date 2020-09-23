@@ -50,19 +50,19 @@ header-img:
 
 가장 먼저 해야 하는 것은 `github`에 원격 저장소를 생성하는 것입니다. `github` 홈페이지에 접속하여 로그인 해줍니다.
 
-![image-20200923091957360](2020-09-23-Tip-Tip-github.assets/image-20200923091957360.png)
+![image-20200923091957360](https://user-images.githubusercontent.com/47618340/93970618-6be9b480-fda9-11ea-9220-c0e06396ab75.png)
 
 좌측 상단에 보시면 `Repositories`라는 메뉴가 보일 것입니다. `Repository`는 원격 저장소와 같은 말입니다. 줄여서 `repo`라고도 부릅니다. 새로운 `repo`를 만들기 위해 `New` 버튼을 눌러줍니다.
 
 ---
 
-<img src="2020-09-23-Tip-Tip-github.assets/image-20200923093130761.png" alt="image-20200923093130761" style="zoom:50%;" />
+<img src="https://user-images.githubusercontent.com/47618340/93970663-84f26580-fda9-11ea-953a-2f027dfeb753.png" alt="image-20200923093130761" style="zoom:50%;" />
 
 `new`를 누르면 위와 같은 화면이 나옵니다. 적절한 이름을 설정하고 `Create repository`를 눌러주세요. 저는 `test`라고 짓도록 하겠습니다.
 
 ---
 
-<img src="2020-09-23-Tip-Tip-github.assets/image-20200923095301560.png" alt="image-20200923095301560" style="zoom:50%;" />
+<img src="https://user-images.githubusercontent.com/47618340/93970727-a8b5ab80-fda9-11ea-8b1b-ea204b9cbdbe.png" alt="image-20200923095301560"  />
 
 위와 같은 화면이 나오면 원격 저장소가 잘 만들어진 것입니다. 이제 만들어진 원격 저장소를 로컬 저장소와 연결시킬 것입니다. 위 화면에 빨간 색으로 표시된 주소 부분을 복사하시고 `git bash`를 열어주세요. 
 
@@ -175,7 +175,7 @@ To https://github.com/lhmlhm1111/test.git
 
 제대로 `push`가 되었는지 확인하기 위해 `github`에 만든 원격 저장소로 들어갑니다.
 
-![image-20200923133738937](2020-09-23-Tip-Tip-github.assets/image-20200923133738937.png)
+![image-20200923133738937](https://user-images.githubusercontent.com/47618340/93970804-c4b94d00-fda9-11ea-9537-1eb657f888aa.png)
 
 위와 같이 됐다면 제대로 저장이 된 것입니다.
 
@@ -260,7 +260,7 @@ To https://github.com/lhmlhm1111/test.git
 
 다시 원격 저장소를 확인해보시면
 
-![image-20200923140130922](2020-09-23-Tip-Tip-github.assets/image-20200923140130922.png)
+![image-20200923140130922](https://user-images.githubusercontent.com/47618340/93970833-d69af000-fda9-11ea-88cd-1e9542a388e1.png)
 
 잘 된 것을 확인할 수 있습니다.
 
