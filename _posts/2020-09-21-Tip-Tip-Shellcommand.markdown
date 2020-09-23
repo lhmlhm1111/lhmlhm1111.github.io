@@ -202,7 +202,7 @@ a.txt  newfolder/
 
 ## 6. mv
 
-파일을 이동시킬 때 사용하는 명령어 입니다. `mv 파일 폴더`의 형태로 입력하시면 됩니다. 방금 생성한 `a.txt` 파일을 `newfolder`로 이동시켜 보겠습니다.
+파일을 이동시킬 때 사용하는 명령어 입니다. `mv 파일 경로`의 형태로 입력하시면 됩니다. 방금 생성한 `a.txt` 파일을 `newfolder`로 이동시켜 보겠습니다.
 
  ```shell
 lhmlh@DESKTOP-99JLML6 MINGW64 ~/emptyfolder
@@ -252,7 +252,7 @@ $ echo Hello world
 Hello world
 ```
 
-우리는 `echo` 명령어를 이용해서 파일에 문자열을 입력하는 것이 가능합니다.
+우리는 `echo 문자열 > 파일` 명령어를 이용해서 파일에 문자열을 입력하는 것이 가능합니다.
 
 ```shell
 lhmlh@DESKTOP-99JLML6 MINGW64 ~/emptyfolder/newfolder
@@ -264,6 +264,18 @@ $ echo Hello world > b.txt
 ```shell
 lhmlh@DESKTOP-99JLML6 MINGW64 ~/emptyfolder/newfolder
 $ cat b.txt
+Hello world
+```
+
+`echo 문자열 > 파일` 명령어는 기존 파일의 문자열을 모두 지우고 새로 입력을 하게 됩니다. 만약 기존 문자열을 유지하고 새로운 문자열을 추가하고 싶다면 `echo 새로운 문자열 >> 파일`를 사용하시면 됩니다.
+
+```shell
+lhmlh@DESKTOP-99JLML6 MINGW64 ~/emptyfolder/newfolder
+$ echo Hello world >> b.txt
+
+lhmlh@DESKTOP-99JLML6 MINGW64 ~/emptyfolder/newfolder
+$ cat b.txt
+Hello world
 Hello world
 ```
 
