@@ -355,7 +355,7 @@ nothing added to commit but untracked files present (use "git add" to track)
 
 지금까지 `git`을 이용하여 로컬 저장소에서 코드 관리 및 버전 관리를 하는 방법에 대해서 알아봤습니다. 다음 포스팅에서는 `github`를 이용해 협업하는 방법을 다뤄보도록 하겠습니다. 읽어주셔서 감사합니다~
 
-
+---
 
 ### 다음 포스팅
 

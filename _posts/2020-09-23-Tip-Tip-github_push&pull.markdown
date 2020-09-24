@@ -303,6 +303,9 @@ test/
 
 다음 포스트에서는 현재 개발 업계에서 가장 표준적인 협업 모델인 **Branch & PR (Pull Request)** 방식에 대해 알아보도록 하겠습니다. 읽어주셔서 감사합니다~
 
+---
+
 ### 다음 포스팅
 
-[github 사용법 - 협업(branch&PR) 1편]
+[github 사용법 - 협업(branch&PR) 1편](https://lhmlhm1111.github.io/tip/2020/09/24/Tip-Tip-github_branch&PR(1)/)
+
