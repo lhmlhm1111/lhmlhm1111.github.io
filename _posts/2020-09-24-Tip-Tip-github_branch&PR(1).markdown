@@ -232,8 +232,6 @@ lhmlh@DESKTOP-99JLML6 MINGW64 ~/conflict (master|MERGING)
 $ 
 ```
 
-**CONFLICT (content): Merge conflict in a.txt** 라는 경고가 뜨면서 경로 옆의 표시가 **(master|MERGING)**로 바뀐 것을 확인할 수 있습니다. 
-
 ---
 
 `git status`를 찍으면 어떤 부분에서 문제가 발생했는지 바로 확인 가능합니다.
@@ -250,6 +248,8 @@ Unmerged paths:
   (use "git add <file>..." to mark resolution)
         both modified:   a.txt
 ```
+
+**CONFLICT (content): Merge conflict in a.txt** 라는 경고가 뜨면서 경로 옆의 표시가 **(master|MERGING)**로 바뀐 것을 확인할 수 있습니다. 
 
 ---
 
