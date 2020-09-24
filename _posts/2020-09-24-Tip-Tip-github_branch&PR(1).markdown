@@ -249,6 +249,8 @@ Unmerged paths:
         both modified:   a.txt
 ```
 
+
+
 **CONFLICT (content): Merge conflict in a.txt** 라는 경고가 뜨면서 경로 옆의 표시가 **(master|MERGING)**로 바뀐 것을 확인할 수 있습니다.
 
 ---
