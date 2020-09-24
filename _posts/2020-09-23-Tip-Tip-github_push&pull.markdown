@@ -74,26 +74,26 @@ header-img:
 
 ```shell
 lhmlh@DESKTOP-99JLML6 MINGW64 ~
-$ mkdir house
+$ mkdir house #house 폴더 생성
 
 lhmlh@DESKTOP-99JLML6 MINGW64 ~
-$ cd house
+$ cd house #house 폴더 이동
 
 lhmlh@DESKTOP-99JLML6 MINGW64 ~/house
-$ git init
+$ git init #git 저장소 생성
 Initialized empty Git repository in C:/Users/lhmlh/house/.git/
 
 lhmlh@DESKTOP-99JLML6 MINGW64 ~/house (master)
-$ cd ..
+$ cd .. #상위 폴더로 이동
 
 lhmlh@DESKTOP-99JLML6 MINGW64 ~
-$ mkdir company
+$ mkdir company #company 폴더 생성
 
 lhmlh@DESKTOP-99JLML6 MINGW64 ~
-$ cd company
+$ cd company #company 폴더 이동
 
 lhmlh@DESKTOP-99JLML6 MINGW64 ~/company
-$ git init
+$ git init #git 저장소 생성
 Initialized empty Git repository in C:/Users/lhmlh/company/.git/
 ```
 
@@ -105,23 +105,23 @@ Initialized empty Git repository in C:/Users/lhmlh/company/.git/
 
 ```shell
 lhmlh@DESKTOP-99JLML6 MINGW64 ~/house (master)
-$ git remote add origin https://github.com/lhmlhm1111/test.git
+$ git remote add origin https://github.com/lhmlhm1111/test.git #원격 저장소 생성
 
 lhmlh@DESKTOP-99JLML6 MINGW64 ~/house (master)
-$ git remote
+$ git remote #원격 저장소 현황 조회
 origin
 
 lhmlh@DESKTOP-99JLML6 MINGW64 ~/house (master)
-$ cd ..
+$ cd .. #상위 폴더로 이동
 
 lhmlh@DESKTOP-99JLML6 MINGW64 ~
-$ cd company
+$ cd company # company 폴더로 이동
 
 lhmlh@DESKTOP-99JLML6 MINGW64 ~/company (master)
-$ git remote add origin https://github.com/lhmlhm1111/test.git
+$ git remote add origin https://github.com/lhmlhm1111/test.git #원격 저장소 생성
 
 lhmlh@DESKTOP-99JLML6 MINGW64 ~/company (master)
-$ git remote
+$ git remote #원격 저장소 조회
 origin
 ```
 
@@ -135,14 +135,14 @@ origin
 
 ```shell
 lhmlh@DESKTOP-99JLML6 MINGW64 ~/company (master)
-$ touch wordchain.txt
+$ touch wordchain.txt #wordchain.txt 파일 생성
 
 lhmlh@DESKTOP-99JLML6 MINGW64 ~/company (master)
-$ echo 깃허브 쿵쿵따! > wordchain.txt
-
+$ echo 깃허브 쿵쿵따! > wordchain.txt 
+#wordchain.txt 파일에 깃허브 쿵쿵따! 텍스트 저장
 lhmlh@DESKTOP-99JLML6 MINGW64 ~/company (master)
 $ cat wordchain.txt
-깃허브 쿵쿵따!
+깃허브 쿵쿵따! # wordchain.txt 내용 조회
 ```
 
  하루 종일 열심히 일했지만 일을 다 끝내지 못한 당신은 `wordchain.txt` 파일을 원격 저장소에 저장하고 이후에 집에서 작업을 하려고 합니다. 원격 저장소에 저장하기 위해서는 먼저 `wordchain.txt` 파일을 `git`에 `add`, `commit` 해주어야 합니다. 
@@ -164,7 +164,7 @@ $ git commit -m "끝말잇기 해주세요 룰은 쿵쿵따입니다 한방단�
 
 ```shell
 lhmlh@DESKTOP-99JLML6 MINGW64 ~/company (master)
-$ git push origin master
+$ git push origin master #원격 저장소에 저장
 Enumerating objects: 3, done.
 Counting objects: 100% (3/3), done.
 Writing objects: 100% (3/3), 305 bytes | 152.00 KiB/s, done.
@@ -193,7 +193,7 @@ lhmlh@DESKTOP-99JLML6 MINGW64 ~
 $ cd house
 
 lhmlh@DESKTOP-99JLML6 MINGW64 ~/house (master)
-$ git pull origin master
+$ git pull origin master #원격 저장소에서 불러오기
 remote: Enumerating objects: 3, done.
 remote: Counting objects: 100% (3/3), done.
 remote: Total 3 (delta 0), reused 3 (delta 0), pack-reused 0
@@ -215,7 +215,7 @@ $ cat wordchain.txt
 
 ```shell
 lhmlh@DESKTOP-99JLML6 MINGW64 ~/house (master)
-$ echo 브라질 쿵쿵따! >> wordchain.txt
+$ echo 브라질 쿵쿵따! >> wordchain.txt #브라질 쿵쿵따! 내용 삽입
 
 lhmlh@DESKTOP-99JLML6 MINGW64 ~/house (master)
 $ cat wordchain.txt
@@ -280,7 +280,7 @@ lhmlh@DESKTOP-99JLML6 MINGW64 ~
 $ cd USA
 
 lhmlh@DESKTOP-99JLML6 MINGW64 ~/USA
-$ git clone https://github.com/lhmlhm1111/test.git
+$ git clone https://github.com/lhmlhm1111/test.git #원격 저장소 복제
 Cloning into 'test'...
 remote: Enumerating objects: 6, done.
 remote: Counting objects: 100% (6/6), done.
@@ -301,5 +301,5 @@ test/
 
 이번 포스트에서는 `github`의 협업 방법 중 하나인 **push & pull** 방식에 대해 알아봤습니다. 가장 간단하고 직관적인 방식이지만 동시에 여러 작업을 수행하는 것에는 한계점이 있습니다. 주로 끝말 잇기처럼 앞의 task가 끝나야 뒤의 task가 시작될 수 있는 협업에 사용됩니다.  
 
-다음 포스트에서는 현재 개발 업계에서 가장 표준적인 협업 모델인 **Branch & PR (Pull Request)** 방식과 오픈소스 협업 모델인 **Fork & PR** 방식에 대해 알아보도록 하겠습니다. 읽어주셔서 감사합니다~
+다음 포스트에서는 현재 개발 업계에서 가장 표준적인 협업 모델인 **Branch & PR (Pull Request)** 방식에 대해 알아보도록 하겠습니다. 읽어주셔서 감사합니다~
 
