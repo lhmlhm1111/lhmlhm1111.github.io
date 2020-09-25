@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "[Tip] github 사용법 - 협업(push&pull)"
-subtitle:   "github 사용법 - 협업(push&pull)"
+title:  "[Tip] github 사용법 - push&pull"
+subtitle:   "github 사용법 - push&pull"
 categories: tip
 tags: github git
 comments: true
@@ -14,7 +14,7 @@ header-img:
 
 [1. 마크다운 문법](https://lhmlhm1111.github.io/tip/2020/09/20/Tip-Tip-Markdown/)
 
-[2. github 가입 및 다운로드](https://lhmlhm1111.github.io/tip/2020/09/20/Tip-Tip-githup_signup&setup/)
+[2. github 가입 및 다운로드](https://lhmlhm1111.github.io/tip/2020/09/20/Tip-Tip-githup_signupsetup/)
 
 [3. git bash shell 명령어](https://lhmlhm1111.github.io/tip/2020/09/21/Tip-Tip-Shellcommand/)
 
@@ -307,5 +307,5 @@ test/
 
 ### 다음 포스팅
 
-[github 사용법 - 협업(branch&PR) 1편](https://lhmlhm1111.github.io/tip/2020/09/24/Tip-Tip-github_branch&PR(1)/)
+[github 사용법 - branch&PR 1편](https://lhmlhm1111.github.io/tip/2020/09/24/Tip-Tip-github_branchPR1/)
 

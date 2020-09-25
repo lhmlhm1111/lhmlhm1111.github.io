@@ -14,7 +14,7 @@ header-img:
 
 [1. 마크다운 문법](https://lhmlhm1111.github.io/tip/2020/09/20/Tip-Tip-Markdown/)
 
-[2. github 가입 및 다운로드](https://lhmlhm1111.github.io/tip/2020/09/20/Tip-Tip-githup_signup&setup/)
+[2. github 가입 및 다운로드](https://lhmlhm1111.github.io/tip/2020/09/20/Tip-Tip-githup_signupsetup/)
 
 [3. git bash shell 명령어](https://lhmlhm1111.github.io/tip/2020/09/21/Tip-Tip-Shellcommand/)
 
@@ -359,7 +359,7 @@ nothing added to commit but untracked files present (use "git add" to track)
 
 ### 다음 포스팅
 
-[github 사용법 - 협업(push&pull)](https://lhmlhm1111.github.io/tip/2020/09/23/Tip-Tip-github_push&pull/)
+[github 사용법 - push&pull](https://lhmlhm1111.github.io/tip/2020/09/23/Tip-Tip-github_pushpull/)
 
 
 

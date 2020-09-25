@@ -219,4 +219,4 @@ ___
 
 ### 다음 포스팅
 
-[github 가입 및 다운로드](https://lhmlhm1111.github.io/tip/2020/09/20/Tip-Tip-githup_signup&setup/)
+[github 가입 및 다운로드](https://lhmlhm1111.github.io/tip/2020/09/20/Tip-Tip-githup_signupsetup/)
