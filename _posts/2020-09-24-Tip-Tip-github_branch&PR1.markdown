@@ -281,3 +281,11 @@ nothing to commit, working tree clean
 
 
 쓰다보니 글이 너무 길어져서 **Pull Request**를 보내는 방법에 대해서는 다음 포스팅으로 넘기도록 하겠습니다. 읽어주셔서 감사합니다~
+
+---
+
+
+
+### 다음 포스팅
+
+[github 사용법 - 협업(branch&PR) 2편](https://lhmlhm1111.github.io/tip/2020/09/25/Tip-Tip-github_branch&PR2/)
