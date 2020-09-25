@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "[Tip] github 사용법 - 협업(Branch&PR) 2편"
-subtitle:   "github 사용법 - 협업(Branch&PR) 2편"
+title:  "[Tip] github 사용법 - Branch&PR 2편"
+subtitle:   "github 사용법 - Branch&PR 2편"
 categories: tip
 tags: github git
 comments: true
