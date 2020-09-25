@@ -20,9 +20,9 @@ header-img:
 
 [4. git 사용법 - 코드 관리(SCM) & 버전 관리(VCS)](https://lhmlhm1111.github.io/tip/2020/09/22/Tip-Tip-git/)
 
-[5. github 사용법 - 협업(push&pull)](https://lhmlhm1111.github.io/tip/2020/09/23/Tip-Tip-github_push&pull/)
+[5. github 사용법 - 협업(push&pull)](https://lhmlhm1111.github.io/tip/2020/09/23/Tip-Tip-github_pushpull/)
 
-[6. github 사용법 - 협업(Branch&PR) 1편](https://lhmlhm1111.github.io/tip/2020/09/24/Tip-Tip-github_branch&PR1/)
+[6. github 사용법 - 협업(Branch&PR) 1편](https://lhmlhm1111.github.io/tip/2020/09/24/Tip-Tip-github_branchPR1/)
 
 ---
 

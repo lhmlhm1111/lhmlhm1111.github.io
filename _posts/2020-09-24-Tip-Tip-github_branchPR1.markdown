@@ -20,7 +20,7 @@ header-img:
 
 [4. git 사용법 - 코드 관리(SCM) & 버전 관리(VCS)](https://lhmlhm1111.github.io/tip/2020/09/22/Tip-Tip-git/)
 
-[5. github 사용법 - 협업(push&pull)](https://lhmlhm1111.github.io/tip/2020/09/23/Tip-Tip-github_push&pull/) 
+[5. github 사용법 - 협업(push&pull)](https://lhmlhm1111.github.io/tip/2020/09/23/Tip-Tip-github_pushpull/) 
 
 ---
 
@@ -288,4 +288,4 @@ nothing to commit, working tree clean
 
 ### 다음 포스팅
 
-[github 사용법 - 협업(branch&PR) 2편](https://lhmlhm1111.github.io/tip/2020/09/25/Tip-Tip-github_branch&PR2/)
+[github 사용법 - 협업(branch&PR) 2편](https://lhmlhm1111.github.io/tip/2020/09/25/Tip-Tip-github_branchPR2/)
