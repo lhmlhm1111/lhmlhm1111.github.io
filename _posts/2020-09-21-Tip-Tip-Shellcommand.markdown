@@ -24,7 +24,7 @@ header-img:
 
 먼저 `git bash`를 실행해봅시다. 윈도우 검색창에 `git bash`를 검색하면 바로 나옵니다.
 
-![image-20200921133654247](https://user-images.githubusercontent.com/47618340/93740356-43d14880-fc25-11ea-9b37-cb7d6e861faf.png) 
+![shell](https://user-images.githubusercontent.com/47618340/94342094-948fd980-0049-11eb-8463-5b1c4f67e744.png) 
 
 가장 먼저 우리는 `git bash`가 어디에서 실행되고 있는지를 알아야 합니다. 명령창 제목부분에서 `git bash`가 실행된 디렉토리의 경로를 확인할 수 있습니다. 저의 경우에는 `c/Users/lhmlh` 이 되겠네요. 
 

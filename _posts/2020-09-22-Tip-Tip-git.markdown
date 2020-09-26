@@ -52,7 +52,7 @@ header-img:
 
 이번 포스팅에서는 로컬 저장소에서 **코드 관리 및 버전 관리**를 어떻게 하는지에 대해 다룰 것이고 원격 저장소에서 할 수 있는 협업에 관한 내용은 다음 포스팅에서 다루도록 하겠습니다. 먼저 `git bash`를 실행해봅시다. 홈 디렉토리에서 `cd` 명령어를 통해 원하는 디렉토리로 이동해도 되지만 이동하고 싶은 폴더를 열고 마우스 오른쪽을 눌러 `Git Bash Here`를 실행시키면 간단히 이동할 수 있습니다.
 
-<img src="https://user-images.githubusercontent.com/47618340/93906542-46bc5e00-fd37-11ea-923a-a0b0aed0c2c4.png" alt="image-20200922141953898" style="zoom:50%;" />
+<img src="https://user-images.githubusercontent.com/47618340/94342113-bee19700-0049-11eb-8a84-0250d64e8d40.png" alt="메뉴" style="zoom:50%;" />
 
 
 

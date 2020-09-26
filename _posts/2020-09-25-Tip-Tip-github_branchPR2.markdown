@@ -205,3 +205,10 @@ To https://github.com/lhmlhm1111/collabo.git
 
 
 지금까지 **Branch & PR** 모델에 대해 알아보는 시간을 가졌습니다. **Branch & PR**은 매우 효율적인 협업 모델이지만 Collaborator로 초대되지 않은 사람은 협업에 참여할 수 없다는 한계가 있습니다. 이러한 한계점을 보완하기 위한 협업 모델이 다음 포스트에서 다룰 **Fork & PR** 모델이 되겠습니다. 읽어주셔서 감사합니다~
+
+---
+
+### 다음 포스팅
+
+[github 사용법 - Fork & PR](https://lhmlhm1111.github.io/tip/2020/09/26/Tip-Tip-github_ForkPR/)
+
