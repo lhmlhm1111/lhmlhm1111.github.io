@@ -24,7 +24,7 @@ header-img:
 
 [6. github 사용법 - Branch&PR 1편](https://lhmlhm1111.github.io/tip/2020/09/24/Tip-Tip-github_branchPR1/)
 
-[7. github 사용법 - Branch&PR 2편](https://lhmlhm1111.github.io/tip/2020/09/24/Tip-Tip-github_branchPR2/)
+[7. github 사용법 - Branch&PR 2편](https://lhmlhm1111.github.io/tip/2020/09/25/Tip-Tip-github_branchPR2/)
 
 ---
 
