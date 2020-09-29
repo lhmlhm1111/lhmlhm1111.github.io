@@ -35,7 +35,7 @@ print(ord(string))
 
 ### 알게된 점
 
-`ord` : python의 내장 함수로 string type의 변수를 인자값으로 받아 **아스키 코드**를 출력하는 함수
+`ord` : python의 내장 함수로 `str` type의 변수를 인자값으로 받아 **아스키 코드**를 출력하는 함수
 
 
 
@@ -47,7 +47,7 @@ string = input()
 print(*map(string.find,map(chr, range(97,123))))
 ```
 
-```
+```python
 baekjoon
 1 0 -1 -1 2 -1 -1 -1 -1 4 3 -1 -1 7 5 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
 ```
@@ -57,7 +57,7 @@ baekjoon
 ### 알게된 점
 1. `chr` : python 내장 함수로 int type 변수를 input으로 받는다. input 변수는 **아스키 코드**를 의미하는 것으로 해당 아스키 코드에 상응하는 문자를 출력한다.
 
-2. `find` : python 문자열 관련 메소드로 `str`, `type` 변수를 받는다. 해당 문자열에서 input 변수값의 위치를 출력한다. 만약 문자열에서 input 변수값이 존재하지 않으면 -1을 출력한다.
+2. `find` : python 문자열 관련 메소드로 `str` type 변수를 받는다. 해당 문자열에서 input 변수값의 위치를 출력한다. 만약 문자열에서 input 변수값이 존재하지 않으면 -1을 출력한다.
 
 3. `*` **(Asterisk)** : `*` 는 python에서 여러 용도로 쓰이지만 여기서는 컨테이너 타입의 데이터를 **unpacking** 할 때 사용한다.  
 
@@ -79,7 +79,7 @@ else:
     print(word_list[word_count.index(max(word_count))])
 ```
 
-```
+```python
 z
 Z
 ```
@@ -118,7 +118,7 @@ else:
     print(num2)
 ```
 
-```
+```python
 734 893
 437
 ```
