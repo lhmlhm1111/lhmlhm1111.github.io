@@ -217,7 +217,7 @@ header-img:
         두번째 div
     </div>
 
-    <span style="background: lime;" style="">첫번째 span</span>
+    <span style="background: lime;">첫번째 span</span>
     <span style="background: blueviolet;">두번째 span</span>
 </body>
 </html>
