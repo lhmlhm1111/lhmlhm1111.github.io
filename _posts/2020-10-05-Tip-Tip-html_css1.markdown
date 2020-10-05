@@ -81,7 +81,7 @@ header-img:
     <title>Document</title>
 </head>
 <body> <!--웹사이트의 내용을 표시하는 부분-->
-    <h1>Hello HTML!</h1>
+	<h1>Hello HTML!</h1>
 	<h2>Hello HTML!</h2>
 	<h3>Hello HTML!</h3>
 	<h4>Hello HTML!</h4>
