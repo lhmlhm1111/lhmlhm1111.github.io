@@ -28,13 +28,13 @@ header-img:
 
 간단히 말해 `HTML`은 홈페이지의 내용과 구조를 담당하는 언어이고 `CSS`는 글꼴, 색상 등 스타일을 담당하는 언어입니다. 실제로 어떻게 쓰이는지 알아봅시다. `Chrome`을 통해 네이버에 접속 후 우상단 점 세 개 버튼을 클릭하고 `도구 더보기 > 개발자 도구`를 클릭합니다.
 
-<img src="2020-09-27-Tip-Tip-github_blog.assets/image-20201005221547681.png" alt="image-20201005221547681" style="zoom:50%;" />
+<img src="https://user-images.githubusercontent.com/47618340/95106897-1f708280-0774-11eb-8b5a-fd54a86517e4.png" alt="image-20201005221547681" style="zoom:50%;" />
 
 ---
 
 클릭하면 아래와 같은 화면을 볼 수 있습니다. 상단에는 `HTML`, 하단에는 `CSS`라고 적혀있는 것을 확인할 수 있습니다. 아래와 같은 마크업 언어를 통해 홈페이지가 구현되는 것입니다. 
 
-<img src="2020-09-27-Tip-Tip-github_blog.assets/image-20201005221852984.png" alt="image-20201005221852984" style="zoom:50%;" />
+<img src="https://user-images.githubusercontent.com/47618340/95106913-24353680-0774-11eb-87c1-7eac66a38872.png" alt="image-20201005221852984" style="zoom:50%;" />
 
 `HTML`과 `CSS`는 웹 개발자 특히 프론트 엔드 개발자라면 반드시 알아야 하는 웹의 근간이 되는 언어입니다. 당연히 제대로 공부하려면 굉장히 방대하고 어렵지만 우리의 목적은 웹을 만드는 것이 아니라 이미 만들어진 웹사이트에서 필요한 정보만을 가져오는 것이므로 매우 기본적인 구조와 자주 쓰이는 태그 및 선택자에 대해서만 다루도록 하겠습니다. 원활한 이해를 돕기 위해 직접 `HTML`과 `CSS` 문서를 작성하면서 설명하겠습니다. 저는 `Visual Studio Code`라는 텍스트 편집기를 이용하여 작성할 것입니다. [여기](https://code.visualstudio.com/)서 다운 받을 수 있습니다. `Visual Studio Code`를 사용하여 따라오는 것을 추천하지만 다운 및 환경 설정에 어려움을 느끼시는 분들은 기본 메모장에 코드를 작성하시고 `.html`, `.css`를 확장자로 하여 저장 후 실행하시면 똑같이 구현됩니다.
 
@@ -91,7 +91,7 @@ header-img:
 </html>
 ```
 
-<img src="2020-09-27-Tip-Tip-github_blog.assets/image-20201005231854092.png" alt="image-20201005231854092" style="zoom:50%;" />
+![image-20201005231854092](https://user-images.githubusercontent.com/47618340/95106920-27c8bd80-0774-11eb-920d-a2592b7831f0.png)
 
 위와 같이 작성된 것을 확인할 수 있습니다. 1에서 6으로 갈수록 소제목이 되는 것을 확인할 수 있습니다. 
 
@@ -120,7 +120,7 @@ header-img:
 </html>
 ```
 
-<img src="2020-09-27-Tip-Tip-github_blog.assets/image-20201005233602596.png" alt="image-20201005233602596" style="zoom:50%;" />
+![image-20201005233602596](https://user-images.githubusercontent.com/47618340/95106930-2a2b1780-0774-11eb-82bc-c9818560c6ad.png)
 
 위와 같이 색상 **속성**이 `<h1>` 태그의 문자열에 부여된 것을 알 수 있습니다. 색상 외에도 수 없이 많은 속성값들이 존재합니다. 특히 웹 크롤링에서 가장 많이 보게 될 속성은 `id`와 `class`입니다. 두 속성에 대해서는 `CSS`를 다룰 때 자세히 설명하도록 하겠습니다.
 
@@ -161,7 +161,7 @@ header-img:
 </html>
 ```
 
-<img src="2020-09-27-Tip-Tip-github_blog.assets/image-20201006003937903.png" alt="image-20201006003937903" style="zoom:50%;" />
+![image-20201006003937903](https://user-images.githubusercontent.com/47618340/95106942-2eefcb80-0774-11eb-9871-917103daa395.png)
 
 ## (3) \<ul>, \<ol>, \<li>
 
@@ -194,11 +194,11 @@ header-img:
 </html>
 ```
 
-![image-20201006005614565](2020-09-27-Tip-Tip-github_blog.assets/image-20201006005614565.png)
+![image-20201006005614565](https://user-images.githubusercontent.com/47618340/95106951-344d1600-0774-11eb-9b74-db408054112b.png)
 
 ## (4) \<div>, \<span>
 
-웹 사이트 내의 공간 배치를 위해 사용하는 태그입니다. 웹 사이트 디자인에서는 아주 중요한 태그이며 확실히 구분할 필요가 있지만 웹 크롤링의 입장에서 둘의 차이를 구분하는 것은 별로 중요하지 않습니다. 다만 `div`와 `span` 단위로 우리가 수집하고자 하는 정보가 구분되어 있다는 사실만 알고 있으면 됩니다. 그래도 궁금하신 분들은 아래의 예시를 보면 어느 정도 이해하실 수 있습니다. 자세한 설명은 생략하겠습니다.
+웹 사이트 내의 공간 배치를 위해 사용하는 태그입니다. 웹 사이트 디자인에서는 아주 중요한 태그이며 확실히 구분할 필요가 있지만 웹 크롤링의 입장에서 둘의 차이를 구분하는 것은 별로 중요하지 않습니다. 다만 `div`와 `span` 단위로 우리가 수집하고자 하는 데이터가 구분되어 있다는 사실만 알고 있으면 됩니다. 그래도 궁금하신 분들은 아래의 예시를 보면 어느 정도 이해하실 수 있습니다. 자세한 설명은 생략하겠습니다.
 
 ```html
 <!DOCTYPE html>
@@ -223,7 +223,7 @@ header-img:
 </html>
 ```
 
-![image-20201006011727401](2020-09-27-Tip-Tip-github_blog.assets/image-20201006011727401.png)
+![image-20201006011727401](https://user-images.githubusercontent.com/47618340/95106963-37e09d00-0774-11eb-9833-9e502d38aad5.png)
 
 ---
 
