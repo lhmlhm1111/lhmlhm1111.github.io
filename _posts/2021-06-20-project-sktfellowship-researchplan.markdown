@@ -18,9 +18,15 @@ header-img:
 
 
 
+
+
 ## 1. 연구과제 배경 및 목표 
 
 ![image](https://user-images.githubusercontent.com/47618340/122662345-399ca480-d1cd-11eb-8c0e-567135b5cff6.png)
+
+
+
+
 
 ## 2. 만들고자 하는 Output
 
@@ -34,6 +40,8 @@ header-img:
 
 <img src="https://user-images.githubusercontent.com/47618340/122662366-5f29ae00-d1cd-11eb-9b08-b6680c31f56c.png" alt="image" style="zoom: 200%;" />
 
+
+
 ## 3. 사용 데이터
 
 저희가 **사용하고자 하는 데이터**는 웹 포털의 2020.01-2020.12의 뉴스의 댓글입니다. 추가로 Github Korean Hate Speech, data를 활용할 예정입니다.
@@ -46,6 +54,10 @@ header-img:
 
 ![image](https://user-images.githubusercontent.com/47618340/122662373-6a7cd980-d1cd-11eb-831e-0c060cc0a886.png)
 
+
+
+
+
 ## 4. 모델링 (1)  - 혐오표현 탐지
 
 1. Baseline 모델 구축: Ko-BERT
@@ -53,6 +65,10 @@ header-img:
 2. Knowledge Graph 활용하여 문맥 고려한 Ko-BERT 응용 모델 구축
 
 ![image](https://user-images.githubusercontent.com/47618340/122662377-7072ba80-d1cd-11eb-99e3-baeb229cf057.png)
+
+
+
+
 
 ## 5. 모델링 (2) - Text Style Transfer
 
@@ -90,6 +106,8 @@ header-img:
 
 
 ![image](https://user-images.githubusercontent.com/47618340/122662387-82545d80-d1cd-11eb-9ef7-34d03d9e5f47.png)
+
+
 
 
 
