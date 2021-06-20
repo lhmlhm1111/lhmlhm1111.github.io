@@ -24,7 +24,7 @@ header-img:
 
 ![image](https://user-images.githubusercontent.com/47618340/122662345-399ca480-d1cd-11eb-8c0e-567135b5cff6.png)
 
-
+---
 
 
 
@@ -39,6 +39,8 @@ header-img:
    + URL 입력 시 해당 URL에 있는 글에서 혐오표현을 탐지하고, 해당 표현을 순화된 표현으로 변환시켜 보여주는 데모 제작하는 것입니다.
 
 <img src="https://user-images.githubusercontent.com/47618340/122662366-5f29ae00-d1cd-11eb-9b08-b6680c31f56c.png" alt="image" style="zoom: 200%;" />
+
+---
 
 
 
@@ -56,7 +58,7 @@ header-img:
 
 
 
-
+---
 
 ## 4. 모델링 (1)  - 혐오표현 탐지
 
@@ -68,7 +70,7 @@ header-img:
 
 
 
-
+---
 
 ## 5. 모델링 (2) - Text Style Transfer
 
@@ -109,7 +111,7 @@ header-img:
 
 
 
-
+---
 
 ## 6. 연구 과제 가치
 
