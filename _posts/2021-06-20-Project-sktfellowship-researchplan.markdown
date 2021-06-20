@@ -3,7 +3,7 @@ layout: post
 title:  "[SKT Fellowship] 바른말 고운말 팀 연구계획서"
 subtitle:   "바른말 고운말 팀 연구계획서"
 categories: project
-tags: SKTFellowship NLP
+tags: sktfellowship
 comments: true
 header-img:
 ---
