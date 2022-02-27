@@ -34,26 +34,26 @@ header-img:
 
 좌측 메뉴에서 `pages` 탭을 클릭합니다.
 
-![image-20220227120544149](/home/hakmin/.config/Typora/typora-user-images/image-20220227120544149.png)
+![image-20220227120544149](https://user-images.githubusercontent.com/47618340/155867384-406cfc27-2ba9-40d5-9745-caa1f96bd7dc.png)
 
 `Source` 메뉴의 `None` 탭에서 `main`을 선택합니다.
 
-![image-20220227121159729](/home/hakmin/.config/Typora/typora-user-images/image-20220227121159729.png)
+![image-20220227121159729](https://user-images.githubusercontent.com/47618340/155867386-a03d5b2e-434e-4cb5-bbcc-62712c5f6a30.png)
 
 다음으로 `/(root)`를 `/docs`로 바꿔주고 `Save`를 클릭합니다.
 
-![image-20220227121449313](/home/hakmin/.config/Typora/typora-user-images/image-20220227121449313.png)
+![image-20220227121449313](https://user-images.githubusercontent.com/47618340/155867391-064eac94-5356-455c-93c2-053c6e5a4f63.png)
 
 
 
 이제 방금 만든 원격저장소의 `docs` 폴더 내에 있는 파일들은 웹으로 배포됩니다. 미리 만들어놓은 `Rmarkdown` 문서를 `docs` 폴더에 넣고 원격저장소에 push 하겠습니다.
 
-![image-20220227123754358](/home/hakmin/.config/Typora/typora-user-images/image-20220227123754358.png)
+![image-20220227123754358](https://user-images.githubusercontent.com/47618340/155867396-2565d25d-a215-467e-ac1e-7a2cc7b287ab.png)
 
 
 
 이제 잘 배포가 되었는지 확인해봅시다. 주소는 `블로그주소/원격저장소이름/문서이름.html`로 들어가시면 됩니다. 
 
-![image-20220227124252590](/home/hakmin/.config/Typora/typora-user-images/image-20220227124252590.png)
+![image-20220227124252590](https://user-images.githubusercontent.com/47618340/155867402-1c78e36a-b3bf-478c-8f29-836c28a7f735.png)
 
 위의 문서를 직접 확인해보고 싶다면 [여기](https://lhmlhm1111.github.io/distribute_test/Rmarkdown_practice.html)로 들어가보시면 됩니다. 읽어주셔서 감사합니다~
