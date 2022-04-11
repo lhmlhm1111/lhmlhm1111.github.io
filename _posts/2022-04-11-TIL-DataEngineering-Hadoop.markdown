@@ -3,7 +3,7 @@ layout: post
 title:  "[TIL] HADOOP 기초 개념 정리"
 subtitle:   "HADOOP 기초 개념 정리"
 categories: TIL
-tags: DataEngineering Hadoop
+tags: dataengineering Hadoop
 comments: true
 header-img:
 ---
