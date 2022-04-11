@@ -188,6 +188,4 @@ MapReduce는 분할정복 방식으로 대용량 데이터를 병렬 처리하�
 
 ### Hadoop Streaming
 
-Hadoop Streaming은 Python, Ruby, Shell Script 등 스크립트 언어를 하둡에서 실행하게 해주는 인터페이스이다.
-
-기존의 MapReduce는 Java를 통해 실행되었고, 일정 시간 동안 쌓인 데이터를 한 번에 Batch 단위로 처리하는 개념이라면, Hadoop Streaming은 그때 그때 데이터를 처리할 때 쓰는 방식이다.
+Hadoop Streaming은 Python, Ruby, Shell Script 등 스크립트 언어를 하둡에서 실행하게 해주는 인터페이스이다. 기존의 MapReduce는 Java를 통해 실행되었고, 일정 시간 동안 쌓인 데이터를 한 번에 Batch 단위로 처리하는 개념이라면, Hadoop Streaming은 그때 그때 데이터를 처리할 때 쓰는 방식이다.
