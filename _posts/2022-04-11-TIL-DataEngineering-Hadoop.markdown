@@ -95,6 +95,8 @@ MapReduce는 분할정복 방식으로 대용량 데이터를 병렬 처리하�
   - 같은 키를 가진 모든 key - value 쌍을 동일한 Reducer에 전달
   
   - Mapper의 Output을 input으로 받음
+  
+  ---
 
 #### Mapping Process
 
@@ -120,6 +122,10 @@ MapReduce는 분할정복 방식으로 대용량 데이터를 병렬 처리하�
    
    - 분할된 파일은 Local File System에 저장되고, 각각 다른 Reduce Task에 저장
 
+
+
+--- 
+
 #### Reducing Process
 
 1. Shuffle
@@ -136,9 +142,13 @@ MapReduce는 분할정복 방식으로 대용량 데이터를 병렬 처리하�
    
    - 정렬 단계에서 생성된 파일을 처음부터 읽으면서 리듀스 함수를 실행
 
+---
+
 #### MapReduce Example (Word Count)
 
 ![](https://user-images.githubusercontent.com/47618340/162691314-9e2dd4a3-e140-4506-b465-3ba456ddeef3.png)
+
+---
 
 #### MapReduce의 한계점
 
