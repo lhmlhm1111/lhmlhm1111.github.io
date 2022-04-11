@@ -13,12 +13,12 @@ url:                 https://lhmlhm1111.github.io
 baseurl:             ""
 
 # A very short description of your page
-tagline:             "DataSciencist(지망생)\n\n브론즈 원딜러"
+tagline:             "진돗개 집사"
 
 # A short description of the page, used in the sidebar and as fallback for the meta description tag.
 # Markdown enabled, but don't use more than one paragraph (enforced by `>`)
 description:         >
-  언젠가 다이아가 될꺼야
+  귀여운 똘이짱
 
 # This should be the same author as first entry in `_data/authors.yml`
 author:
