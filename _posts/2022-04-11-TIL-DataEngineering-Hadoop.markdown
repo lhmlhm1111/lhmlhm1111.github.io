@@ -122,8 +122,6 @@ MapReduce는 분할정복 방식으로 대용량 데이터를 병렬 처리하�
    
    - 분할된 파일은 Local File System에 저장되고, 각각 다른 Reduce Task에 저장
 
-
-
 --- 
 
 #### Reducing Process
@@ -174,6 +172,8 @@ MapReduce는 분할정복 방식으로 대용량 데이터를 병렬 처리하�
 
 ### YARN (Hadoop 2.0)
 
+![](https://user-images.githubusercontent.com/47618340/162691343-a2dd7e13-923b-49eb-a8af-8ac770be4395.png)
+
 - 위에서 본 MapReduce의 한계점을 극복하기 위해 Hadoop 2.0에서는 기존에 MapReduce에서 처리하던 Cluster 관리 기능을 YARN으로 분리했다.
 
 - MapReduce는 데이터 처리 방법 중 하나로만 이용되며, 더이상 MapReduce로만 처리되지 않음
@@ -181,6 +181,8 @@ MapReduce는 분할정복 방식으로 대용량 데이터를 병렬 처리하�
 - 다양한 데이터 처리 방식을 지원 (Batch, Interactive, Online, Streaming)
 
 #### YARN의 구성요소
+
+![](https://user-images.githubusercontent.com/47618340/162691387-4bc5cbb9-5459-4f7f-85db-5e82ec3fd6c4.png)
 
 - Resource Manager : 클러스터의 전반적인 자원관리, Scheduler, Application Manager 조정
 
