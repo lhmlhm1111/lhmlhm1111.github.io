@@ -8,8 +8,6 @@ comments: true
 header-img:
 ---
 
-
-
 `github`에 대한 포스팅을 마무리 짓고 이번에는 `python`을 활용한 웹크롤링을 주제로 글을 써보려고 합니다. **웹크롤링** (Web Crawling)이란 웹(Web)에서 데이터를 가져오는 행위를 통칭하는 말입니다. 본격적으로 웹크롤링을 다루기에 앞서 웹페이지를 구성하는 언어인 `HTML`과 `CSS`에 대해 간단한 빌드업을 하고 넘어가려고 합니다. 
 
 `HTML`과 `CSS`에 대해 간략하게 설명을 드리면
@@ -18,13 +16,9 @@ header-img:
 
 > 웹 페이지의 모습을 나타내기 위한 **마크업 언어**의 일종
 
-
-
 ### CSS (Cascading Style Sheet)
 
 > HTML의 디자인적인 요소를 표현하는 언어
-
-
 
 간단히 말해 `HTML`은 홈페이지의 내용과 구조를 담당하는 언어이고 `CSS`는 글꼴, 색상 등 스타일을 담당하는 언어입니다. 실제로 어떻게 쓰이는지 알아봅시다. `Chrome`을 통해 네이버에 접속 후 우상단 점 세 개 버튼을 클릭하고 `도구 더보기 > 개발자 도구`를 클릭합니다.
 
@@ -51,7 +45,7 @@ header-img:
     <title>Document</title>
 </head>
 <body> <!--웹사이트의 내용을 표시하는 부분-->
-    
+
 </body>
 </html>
 ```
@@ -66,8 +60,6 @@ header-img:
 
 위에서 봤던 `<head></head>`, `<body></body>`도 모두 **태그**입니다. `<태그>`를 여는 태그, `</태그>`를 닫는 태그라고 합니다. 여는 태그와 닫는 태그 사이에 쓰고 싶은 내용을 넣으면 `HTML` 문서가 작성됩니다. 태그 내부에 **속성**을 넣어주면 글자색, 폰트 등을 변경할 수 있고 태그 간에 구분을 지어 줄 수도 있습니다. 백문이 불여일견 직접 작성해봅시다.
 
-
-
 ## (1) \<h1>, \<h2>, ..., \<h6>
 
 제목(Header)을 작성하는 태그입니다. 아래와 같이 작성 후 저장하고 파일을 열어봅니다.
@@ -81,12 +73,12 @@ header-img:
     <title>Document</title>
 </head>
 <body> <!--웹사이트의 내용을 표시하는 부분-->
-	<h1>Hello HTML!</h1>
-	<h2>Hello HTML!</h2>
-	<h3>Hello HTML!</h3>
-	<h4>Hello HTML!</h4>
-	<h5>Hello HTML!</h5>
-	<h6>Hello HTML!</h6>
+    <h1>Hello HTML!</h1>
+    <h2>Hello HTML!</h2>
+    <h3>Hello HTML!</h3>
+    <h4>Hello HTML!</h4>
+    <h5>Hello HTML!</h5>
+    <h6>Hello HTML!</h6>
 </body>
 </html>
 ```
@@ -110,12 +102,12 @@ header-img:
     <title>Document</title>
 </head>
 <body> <!--웹사이트의 내용을 표시하는 부분-->
-	<h1 style="color: red;">Hello HTML!</h1> <!--h1 태그 문자열에 속성 부여-->
-	<h2>Hello HTML!</h2>
-	<h3>Hello HTML!</h3>
-	<h4>Hello HTML!</h4>
-	<h5>Hello HTML!</h5>
-	<h6>Hello HTML!</h6>
+    <h1 style="color: red;">Hello HTML!</h1> <!--h1 태그 문자열에 속성 부여-->
+    <h2>Hello HTML!</h2>
+    <h3>Hello HTML!</h3>
+    <h4>Hello HTML!</h4>
+    <h5>Hello HTML!</h5>
+    <h6>Hello HTML!</h6>
 </body>
 </html>
 ```
@@ -123,8 +115,6 @@ header-img:
 ![image-20201005233602596](https://user-images.githubusercontent.com/47618340/95106930-2a2b1780-0774-11eb-82bc-c9818560c6ad.png)
 
 위와 같이 색상 **속성**이 `<h1>` 태그의 문자열에 부여된 것을 알 수 있습니다. 색상 외에도 수 없이 많은 속성값들이 존재합니다. 특히 웹 크롤링에서 가장 많이 보게 될 속성은 `id`와 `class`입니다. 두 속성에 대해서는 `CSS`를 다룰 때 자세히 설명하도록 하겠습니다.
-
-
 
 ## (2) \<p>, \<br> ,\<a>
 
@@ -148,13 +138,13 @@ header-img:
         용인에 살고 있고 롤하는거 좋아합니다. <br>
         제 블로그 많이 많이 봐주세요 ㅎㅎ
     </p>
-    
+
     <p>
         우리 집에는 똘이라는 백구가 살고 있습니다. <br> 
         남들에겐 까칠하지만 내 주인한텐 따뜻한 차도견이죠. <br>
         <!--링크 태그-->
         똘이 사진도 <a href="https://lhmlhm1111.github.io/">블로그</a>에 종종 올릴게요~
-        
+
     </p>
 
 </body>
@@ -182,7 +172,7 @@ header-img:
            <li>순서가 없는 항목</li>
        </ul> 
     </p>
-    
+
     <p>
         <ol>
             <li>순서가 있는 항목</li>
@@ -230,8 +220,6 @@ header-img:
 위에서 계속 언급했지만 웹크롤링이 목적이라면 HTML에 대해 더 자세하게 공부할 필요는 없습니다. 본 포스팅에서 정리한 내용만 훑어봐도 충분합니다. 혹시 더 궁금하신 분은 [w3school](https://www.w3schools.com/html/)을 추천드립니다. 
 
 다음 포스팅은 `CSS`와 선택자에 대해 다룰 것입니다. 다음 포스팅이 웹 크롤링에 있어 좀 더 중요한 내용이라고 생각합니다. 차차 알게 되겠지만 `CSS`가 `HTML`에 스타일링을 하는 방식이 `python` 패키지가 웹의 데이터를 선택하고 가져오는 방식과 거의 유사하기 때문입니다. 다음 포스팅에서 자세히 다루도록 하겠습니다. 읽어주셔서 감사합니다~
-
-
 
 ---
 

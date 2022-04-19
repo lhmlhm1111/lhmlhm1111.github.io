@@ -8,8 +8,6 @@ comments: true
 header-img:
 ---
 
-
-
 ### 지난 포스팅
 
 [1. 마크다운 문법](https://lhmlhm1111.github.io/tip/2020/09/20/Tip-Tip-Markdown/)
@@ -27,8 +25,6 @@ header-img:
 [7. github 사용법 - Branch&PR 2편](https://lhmlhm1111.github.io/tip/2020/09/25/Tip-Tip-github_branchPR2/)
 
 ---
-
-
 
 지난 포스팅에서는 `github`의 협업 시나리오 중 하나인 **Branch & PR** 모델에 대해 알아봤습니다. 이번 포스팅에서는 **오픈 소스** 프로젝트에서의 협업 모델인 **Fork & PR** 모델에 대해 알아보겠습니다.
 
@@ -106,13 +102,8 @@ Collaborator로 지정되어있지 않기 때문에 해당 원격 저장소에 �
 
 다음 포스팅은 보너스로 `github` 블로그를 구축하는 방법에 대해서 다뤄보도록 하겠습니다. 읽어주셔서 감사합니다~
 
-
-
-
-
 ---
 
 ### 다음 포스팅
 
 [github 블로그를 만들자!](https://lhmlhm1111.github.io/tip/2020/09/27/Tip-Tip-github_blog/)
-
